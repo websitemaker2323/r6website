@@ -1,10 +1,9 @@
-import TournamentBrackets from "./components/TournamentBrackets";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import Intro from './components/Intro';
-import MainMenu from './components/MainMenu';
-import TournamentBrackets from './components/TournamentBrackets';
-import Customs from './components/Customs';
+import Intro from "./components/Intro";
+import MainMenu from "./components/MainMenu";
+import TournamentBrackets from "./components/TournamentBrackets";
+import Customs from "./components/Customs";
 import { Shield, ChevronLeft, Terminal } from 'lucide-react';
 
 type View = 'intro' | 'menu' | 'tourney' | 'customs';
