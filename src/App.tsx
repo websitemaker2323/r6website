@@ -1,3 +1,4 @@
+import TournamentBrackets from "./components/TournamentBrackets";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Intro from './components/Intro';
